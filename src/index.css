@@ -1,0 +1,118 @@
+body {
+  background: #0b1120;
+  color: white;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+/* Centrar el contenedor */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/* Cuadrado principal */
+.card-container {
+  background: #151b2f;
+  width: 650px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+}
+
+.card-container h1 {
+  margin-top: 0;
+  font-size: 35px;
+}
+
+.card-container p {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+/* Select */
+select {
+  width: 100%;
+  padding: 10px;
+  background: #0f1425;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Botones de tags */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-btn {
+  background: transparent;
+  border: 2px solid #4e6bff;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #4e6bff;
+  font-weight: 600;
+}
+
+.tag-btn:hover {
+  background: #4e6bff33;
+}
+
+.tag-btn.active {
+  background: #4e6bff;
+  color: white;
+}
+
+/* Botón de buscar */
+.search-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #4e6bff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Error */
+.error {
+  color: #ff7b7b;
+  margin-top: 10px;
+}
+
+/* Tarjetas de juegos */
+.game-card {
+  background: #0f1425;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rating-box {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.rating-box button {
+  background: #4e6bff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
