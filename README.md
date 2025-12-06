@@ -34,4 +34,6 @@ JavaScript ES6
 CSS personalizado
 API simulada (Mock API)
 
+Video: https://youtu.be/9aJ8EHEgOz0
+
 
